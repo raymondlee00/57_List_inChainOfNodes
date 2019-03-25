@@ -21,7 +21,7 @@ public class Node {
            Then remove this comment, of course.
          */
     	this.cargoReference = cargoReference;
-      	this.referenceToNextNode = referenceToNextNode;
+      this.referenceToNextNode = referenceToNextNode;
     }
 
     /**
@@ -48,5 +48,9 @@ public class Node {
 
     public void setReferenceToNextNode( Node referenceToNextNode) {
     	this.referenceToNextNode = referenceToNextNode;
+    }
+
+    public Object getCargoReference() {
+      return cargoReference;
     }
 }
