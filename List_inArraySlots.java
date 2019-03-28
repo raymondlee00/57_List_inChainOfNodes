@@ -85,7 +85,7 @@ public class List_inChainOfNodes {
       	Node node = headReference;
       	while (counter != 0) {
           	if (counter == index) {
-          		return node;
+          		return node.getCargoReference();
             }
         	node = node.getReferenceToNextNode();
           	counter--;
